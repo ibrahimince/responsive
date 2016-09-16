@@ -1,0 +1,44 @@
+@media screen and (min-width:480px){
+	body{
+	background:navy;
+	}
+}
+@media screen and (min-width: 660px){
+	body{
+		background: darkgreen;
+	}
+}
+
+/*TWO COLUM LAYOUT
+*/
+
+@media screen and (min-width: 660px){
+
+#primary{
+	width:50%;
+	float:left;
+}
+
+#secondary{
+	width: 40%;
+	float: right;
+}
+
+/*TREE COLUM LAYIT*/
+
+
+#gallery li{
+
+	width:28.3333%;
+
+}
+
+
+}
+
+@media screen and (max-width:480px){
+	#gallery li{
+		width:100%; 
+
+	}
+	}
